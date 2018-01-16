@@ -1,0 +1,114 @@
+body
+{ 
+    background-color:black;
+    background-image: url("font02.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  650px;
+}
+
+@font-face {
+    font-family: 'Ojack';
+    src: url('Squared Display.ttf');    
+}
+
+
+
+title
+{
+    color: green;
+}
+
+
+h1
+{
+    color: green;
+    text-align: center; 
+    font-family: 'Ojack', Arial, serif;
+    font-size: 82px;
+    text-shadow: 16px 16px 16px yellow inset;
+    border: 3px green double; 
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px green;
+      
+}
+
+
+li
+{
+    
+    color: green; 
+    margin-left: 55px;   
+}
+
+p
+{
+    color: green;
+    text-align: center;
+}
+
+h2
+{    
+    color: green;   
+    font-size: 26px;
+    border: 3px green double;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 6px 6px green;
+    font-family: 'Ojack', Arial, serif;
+    margin-left: 35px;
+    padding-left: 165px;
+}
+
+h3
+{
+    color: yellow;
+    text-align: center;
+}
+
+h4
+{
+    border: 4px green double;
+    border-radius: 10px;
+    width: 140px;
+    box-shadow: 0px 6px 6px green;
+    margin-left: 210px;
+}
+
+h5
+{
+   margin-left: 190px;
+}
+
+
+title:hover
+{
+    color: red;
+}
+
+
+h1:hover
+{
+    color: red;
+}
+
+
+li:hover
+{
+    color: red;
+}
+
+p:hover
+{
+    color: red;
+}
+
+h2:hover
+{
+    color: red;
+}
+
+h3:hover
+{
+    color: red;
+}
